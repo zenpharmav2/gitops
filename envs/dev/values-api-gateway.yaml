@@ -2,7 +2,7 @@ replicaCount: 1
 fullnameOverride: api-gateway
 image:
   repository: 397303792755.dkr.ecr.us-east-1.amazonaws.com/api-gateway
-  tag: sha-175f3fc
+  tag: sha-f55783a
   pullPolicy: Always
 service:
   type: ClusterIP
